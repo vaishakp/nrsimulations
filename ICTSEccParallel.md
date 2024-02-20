@@ -1,4 +1,4 @@
-|                   |    Omega0 |        adot0 |      D0 |   MassRatio | ChiA            | ChiB           | IDType   |   ReferenceTime |   SemiMajorAxis |   Eccentricity |   AnomalyAngle |
+|  Simulation Alias |    Omega0 |        adot0 |      D0 |   MassRatio | ChiA            | ChiB           | IDType   |   ReferenceTime |   SemiMajorAxis |   Eccentricity |   AnomalyAngle |
 |:------------------|----------:|-------------:|--------:|------------:|:----------------|:---------------|:---------|----------------:|----------------:|---------------:|---------------:|
 | ICTSEccParallel13 | 0.0125772 | -0.000721039 | 17.1103 |         9.5 | (0.0,0.0,0.6)   | (0.0,0.0,0.3)  | SHK      |               0 |              16 |           0.1  |            4   |
 | ICTSEccParallel12 | 0.0125772 | -0.000721039 | 17.1103 |         9.5 | (0.0,0.0,0.3)   | (0.0,0.0,0.3)  | SHK      |               0 |              16 |           0.1  |            4   |
