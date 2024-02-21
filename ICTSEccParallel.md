@@ -100,7 +100,7 @@
 
 # Excerpt
 
-|                    |    D0    |   MassRatio | ChiA           | ChiB           |   Eccentricity |  
+|  Sim alias         |    D0    |   MassRatio | ChiA           | ChiB           |   Eccentricity |  
 |:-------------------|---------:|------------:|---------------:|---------------:|:---------------|
 | EccContPrecDiff001 |  20.2307 |         3   | (0.3,0,0.0)    | (0.2,0.0,0.1)  |           0.04 |  
 | EccContPrecDiff002 |  23.994  |         2.5 | (0.1,0.4,0.0)  | (0.5,0.0,0.0)  |           0.08 | 
