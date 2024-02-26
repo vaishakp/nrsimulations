@@ -1,3 +1,13 @@
+# A catalog of numerical relatiity simulations being run at ICTS-TIFR Bengaluru
+
+The numerical simulations are being run on the sonic cluster. They contain details of ongoing, already completed and failed runs till date.
+
+This page was first created on Feb 20, 2024.
+
+## Some notes:
+1. Failed sumulations: these have failed a cycle or 
+
+2. 
 # ICTSEccParallel
 
 | Simulation Alias  |    Omega0 |        adot0 |      D0 |   MassRatio | ChiA            | ChiB           | IDType   |   ReferenceTime |   SemiMajorAxis |   Eccentricity |   AnomalyAngle |
