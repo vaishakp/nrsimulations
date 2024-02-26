@@ -5,9 +5,14 @@ The numerical simulations are being run on the sonic cluster. They contain detai
 This page was first created on Feb 20, 2024.
 
 ## Some notes:
-1. Failed sumulations: these have failed a cycle or 
+1. Codes developed in `waveformtools` help in finding and automatically parsing parameters from NR simulation directories, and output a markdown table here. The code can be [accessed here](https://gitlab.com/vaishakp/waveformtools/-/tree/sxs_wtools/waveformtools/sxs?ref_type=heads):
+2. Codes developed in `waveformtools` can also find and process waveforms. They can
+  1. extrapolate waveforms using scri / waveformtools
+  2. Apply CoM corrections
+3. Some tables are repeated to enable easy viewing of variable amount of information.
+4. Failed sumulations: these have failed a cycle or two since the start.
 
-2. 
+
 # ICTSEccParallel
 
 | Simulation Alias  |    Omega0 |        adot0 |      D0 |   MassRatio | ChiA            | ChiB           | IDType   |   ReferenceTime |   SemiMajorAxis |   Eccentricity |   AnomalyAngle |
