@@ -1,0 +1,195 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Sl. No.</th>
+      <th>Status</th>
+      <th>Omega0</th>
+      <th>Ncycles</th>
+      <th>Ncycles (2,2)</th>
+      <th>adot0</th>
+      <th>D0</th>
+      <th>MassRatio</th>
+      <th>ChiA</th>
+      <th>ChiB</th>
+      <th>IDType</th>
+      <th>ReferenceTime</th>
+      <th>SemiMajorAxis</th>
+      <th>Eccentricity</th>
+      <th>AnomalyAngle</th>
+      <th>ZwickyDays</th>
+      <th>ChiEff</th>
+      <th>ChiPrec</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>EccContPrecDiff001</th>
+      <td>1</td>
+      <td>{3: 'Completed', 4: 'Completed'}</td>
+      <td>0.010373</td>
+      <td>{3: 103.01430054967433, 4: 102.95066161184174}</td>
+      <td>{3: 107.41976856783918, 4: 107.2966440688715}</td>
+      <td>0.000141</td>
+      <td>20.2307</td>
+      <td>3.0</td>
+      <td>(0.3, 0.0, 0.0)</td>
+      <td>(0.2, 0.0, 0.1)</td>
+      <td>SHK</td>
+      <td>0.0</td>
+      <td>21.0</td>
+      <td>0.04</td>
+      <td>0.4</td>
+      <td>0.0</td>
+      <td>0.025</td>
+      <td>0.3</td>
+    </tr>
+    <tr>
+      <th>EccContPrecDiff002</th>
+      <td>2</td>
+      <td>{3: 'Halted', 4: 'Halted'}</td>
+      <td>0.007994</td>
+      <td>{}</td>
+      <td>{}</td>
+      <td>0.000556</td>
+      <td>23.99403</td>
+      <td>2.5</td>
+      <td>(0.1, 0.4, 0.0)</td>
+      <td>(0.5, 0.0, 0.0)</td>
+      <td>SHK</td>
+      <td>0.0</td>
+      <td>24.0</td>
+      <td>0.08</td>
+      <td>1.5</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.412311</td>
+    </tr>
+    <tr>
+      <th>EccContPrecDiff003</th>
+      <td>3</td>
+      <td>{2: 'Completed', 3: None}</td>
+      <td>0.028386</td>
+      <td>{2: 14.224607497794048}</td>
+      <td>{2: 17.51906258699352}</td>
+      <td>0.0</td>
+      <td>9.9</td>
+      <td>3.5</td>
+      <td>(-0.2, 0.1, 0.0)</td>
+      <td>(0.2, 0.0, -0.3)</td>
+      <td>SHK</td>
+      <td>0.0</td>
+      <td>11.0</td>
+      <td>0.1</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>-0.066667</td>
+      <td>0.223607</td>
+    </tr>
+    <tr>
+      <th>EccContPrecDiff004</th>
+      <td>4</td>
+      <td>{2: 'Completed', 3: 'Completed'}</td>
+      <td>0.031291</td>
+      <td>{2: 14.74091510773156, 3: 15.648219173738543}</td>
+      <td>{}</td>
+      <td>0.0</td>
+      <td>9.35</td>
+      <td>1.1</td>
+      <td>(0.0, 0.3, 0.2)</td>
+      <td>(0.0, 0.1, 0.5)</td>
+      <td>SHK</td>
+      <td>0.0</td>
+      <td>11.0</td>
+      <td>0.15</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.342857</td>
+      <td>0.3</td>
+    </tr>
+    <tr>
+      <th>EccContPrecDiff005</th>
+      <td>5</td>
+      <td>{2: 'Completed', 3: 'Completed'}</td>
+      <td>0.033129</td>
+      <td>{2: 10.900573211367973, 3: 10.900875019299674}</td>
+      <td>{2: 12.106245796855, 3: 12.108582183910833}</td>
+      <td>0.0</td>
+      <td>9.02</td>
+      <td>1.0</td>
+      <td>(0.3, 0.4, 0.0)</td>
+      <td>(0.0, 0.0, 0.0)</td>
+      <td>SHK</td>
+      <td>0.0</td>
+      <td>11.0</td>
+      <td>0.18</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.5</td>
+    </tr>
+    <tr>
+      <th>EccContPrecDiff006</th>
+      <td>6</td>
+      <td>{2: 'Completed', 3: 'Completed'}</td>
+      <td>0.027823</td>
+      <td>{2: 13.311119330379896, 3: 13.325567918834619}</td>
+      <td>{3: 17.132439666082558}</td>
+      <td>0.003659</td>
+      <td>10.007926</td>
+      <td>1.5</td>
+      <td>(0.3, 0.3, 0.2)</td>
+      <td>(0.1, 0.0, 0.2)</td>
+      <td>SHK</td>
+      <td>0.0</td>
+      <td>11.0</td>
+      <td>0.21</td>
+      <td>1.0</td>
+      <td>0.0</td>
+      <td>0.2</td>
+      <td>0.424264</td>
+    </tr>
+    <tr>
+      <th>EccContPrecDiff007</th>
+      <td>7</td>
+      <td>{2: 'Completed', 3: 'Completed'}</td>
+      <td>0.017183</td>
+      <td>{2: 30.4822281886772, 3: 30.488054612491805}</td>
+      <td>{2: 30.51949011892798, 3: 30.510827762781076}</td>
+      <td>0.001049</td>
+      <td>13.986663</td>
+      <td>2.5</td>
+      <td>(0.1, 0.4, 0.0)</td>
+      <td>(0.5, 0.0, 0.0)</td>
+      <td>SHK</td>
+      <td>0.0</td>
+      <td>14.0</td>
+      <td>0.08</td>
+      <td>1.5</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.412311</td>
+    </tr>
+    <tr>
+      <th>EccContPrecDiff008</th>
+      <td>8</td>
+      <td>{2: 'Completed', 3: 'Completed'}</td>
+      <td>0.018468</td>
+      <td>{2: 40.21426704175213, 3: 40.2427412095804}</td>
+      <td>{2: 40.69528814795823, 3: 40.73781477765863}</td>
+      <td>0.0</td>
+      <td>13.94</td>
+      <td>1.0</td>
+      <td>(0.3, 0.4, 0.0)</td>
+      <td>(0.0, 0.0, 0.0)</td>
+      <td>SHK</td>
+      <td>0.0</td>
+      <td>17.0</td>
+      <td>0.18</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.5</td>
+    </tr>
+  </tbody>
+</table>
