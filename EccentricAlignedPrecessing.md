@@ -105,7 +105,3 @@ This page was first created on Feb 20, 2024.
 | EccContPrecDiff008 |  13.94   |         1   | (0.3,0.4,0)    | (0,0,0)        |           0.18 |
 </div>
 
-
-.foo table {
-  width 100%
-}
