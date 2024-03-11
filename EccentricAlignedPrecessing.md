@@ -19,9 +19,7 @@ This page was first created on Feb 20, 2024.
 3. Some tables are repeated to enable easy viewing of variable amounts of information on devices with smaller screens.
 4. Failed simulations: some have failed usually close to the merger.
 
-table {
-    width:100%;
-}
+
 
 <div class="foo">
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
