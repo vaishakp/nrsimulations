@@ -1,9 +1,3 @@
-<style>
-    table {
-        width: 100%;
-    }
-</style>
-
 # A catalog of numerical relativity simulations being run at ICTS-TIFR Bengaluru
 
 The numerical simulations are being run on the sonic cluster. They contain details of ongoing, already completed, and failed runs to date.
@@ -110,4 +104,8 @@ This page was first created on Feb 20, 2024.
 | EccContPrecDiff007 |  13.9867 |         2.5 | (0.1,0.4,0.0)  | (0.5,0.0,0.0)  |           0.08 | 
 | EccContPrecDiff008 |  13.94   |         1   | (0.3,0.4,0)    | (0,0,0)        |           0.18 |
 
-
+<style>
+    table {
+        width: 100%;
+    }
+</style>
