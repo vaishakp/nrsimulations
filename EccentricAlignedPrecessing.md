@@ -1,3 +1,9 @@
+<style>
+    table {
+        width: 100%;
+    }
+</style>
+
 # A catalog of numerical relativity simulations being run at ICTS-TIFR Bengaluru
 
 The numerical simulations are being run on the sonic cluster. They contain details of ongoing, already completed, and failed runs to date.
