@@ -19,6 +19,7 @@ This page was first created on Feb 20, 2024.
 3. Some tables are repeated to enable easy viewing of variable amounts of information on devices with smaller screens.
 4. Failed simulations: some have failed usually close to the merger.
 
+<div class="foo">
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ICTSEccParallel
 
@@ -100,3 +101,4 @@ This page was first created on Feb 20, 2024.
 | EccContPrecDiff006 |  10.0079 |         1.5 | (0.3,0.3,0.2)  | (0.1,0,0.2)    |           0.21 | 
 | EccContPrecDiff007 |  13.9867 |         2.5 | (0.1,0.4,0.0)  | (0.5,0.0,0.0)  |           0.08 | 
 | EccContPrecDiff008 |  13.94   |         1   | (0.3,0.4,0)    | (0,0,0)        |           0.18 |
+</div>
