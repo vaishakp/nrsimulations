@@ -25,6 +25,8 @@ This page was first created on Feb 20, 2024.
 1. Parameters are interpolated onto the requested reference time using cubic interpolation.
 2. Values are retrieved from the `Horizons.h5` file.
 3. The orbital reference time is computed as the (coordinate and gauge dependent), angular frequency of the AHs in the x-y plane at the requested reference time.
+4. The Chi parameters are dimensionless spin components.
+5. Masses at reference time are computed using dimensionful spin (J components) and Christodoulou masses using the same Kerr relation.
 
 ![One waveform](eccprec01.png)
 
