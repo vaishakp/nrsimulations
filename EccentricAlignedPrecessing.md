@@ -18,7 +18,13 @@ This page was first created on Feb 20, 2024.
   - Output a markdown table for easy viewing
 3. Some tables are repeated to enable easy viewing of variable amounts of information on devices with smaller screens.
 4. Failed simulations: some have failed usually close to the merger.
+5. Reference time is chosen to be the diameter of the smallest waveform extraction sphere.
+6. Quantities with '_ref' suffixed are values computed at the requested reference time.
 
+### Computation of reference parameters
+1. Parameters are interpolated onto the requested reference time using cubic interpolation.
+2. Values are retrieved from the `Horizons.h5` file.
+3. The orbital reference time is computed as the (coordinate and gauge dependent), angular frequency of the AHs in the x-y plane at the requested reference time.
 
 ![One waveform](eccprec01.png)
 
