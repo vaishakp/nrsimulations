@@ -28,8 +28,13 @@ This page was first created on Feb 20, 2024.
 4. The Chi parameters are dimensionless spin components.
 5. Masses at reference time are computed using dimensionful spin (J components) and Christodoulou masses using the same Kerr relation.
 
+
+# Sample waveform
+
 ![One waveform](eccprec01.png)
 
+
+# Database of simulations
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # ICTSEccParallel
 
