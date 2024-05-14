@@ -1,8 +1,8 @@
+GPU notes
 
 1. Nvidia A100 gives 9.7TFLOPS at FP64. 
-1. AMD EPYC processors give around 5.7TFLOPS
-1. Thus at 64bit arithmatic, using GPUs can atmost give 2x speed improvement.
-1. This improvement is only for high-end GPUs. NVIDIA e.g. does not support FP64 for many low-end GPUs
-1. 32bit arithmatic with no FMA give significantly more errors.
-1. The sppedup using GPUs is easily attainable with compiler optimizations on CPUs
-1. 
+2. AMD EPYC processors give around 5.7TFLOPS
+3. Thus at 64bit arithmatic, using GPUs can atmost give 2x speed improvement.
+4. This improvement is only for high-end GPUs. NVIDIA e.g. does not support FP64 for many low-end GPUs
+5. 32bit arithmatic with no FMA give significantly more errors.
+6. The sppedup using GPUs is easily attainable with compiler optimizations on CPUs 
