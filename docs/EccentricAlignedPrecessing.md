@@ -31,12 +31,12 @@ This page was first created on Feb 20, 2024.
 
 # Sample waveform
 
-![One waveform](eccprec01.png)
+![One waveform](../eccprec01.png)
 
 # Parameter space
 
-![One waveform](SpEC_sims.png)
-![One waveform](SpEC_sims_lengths.png)
+![One waveform](../SpEC_sims.png)
+![One waveform](../SpEC_sims_lengths.png)
 
 # Database of simulations
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
