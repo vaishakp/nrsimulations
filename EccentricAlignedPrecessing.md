@@ -31,16 +31,16 @@ This page was first created on Feb 20, 2024.
 
 # Sample waveform
 
-![One waveform](https://github.com/vaishakp/nrsimulations/blob/770169c6e54d8d130e7e8d5d04da80d61eee4c49/eccprec01.png)
+![One waveform](images/eccprec01.png)
 
 # Parameter space
 
-![qChiPrec](https://github.com/vaishakp/nrsimulations/blob/770169c6e54d8d130e7e8d5d04da80d61eee4c49/SpEC_sims.png)
-![len](https://github.com/vaishakp/nrsimulations/blob/770169c6e54d8d130e7e8d5d04da80d61eee4c49/SpEC_sims_lengths.png)
+![qChiPrec](images/SpEC_sims.png)
+![len](images/SpEC_sims_lengths.png)
 
 # Simulation diagnostics
 
-[Simulation summary](https://github.com/vaishakp/nrsimulations/blob/770169c6e54d8d130e7e8d5d04da80d61eee4c49/summary_7Aug.pdf)
+[Simulation summary](resources/summary_7Aug.pdf)
 
 # Database of simulations
 
@@ -155,7 +155,9 @@ This page was first created on Feb 20, 2024.
 ## 3.A Updated with new reference time
 
 
-|                 |   ReqRefTime |    Omega0 |   Omega_ref |   D0 |   MassRatio | ChiA            | ChiA_ref                    | ChiB            | ChiB_ref                    |   ChiEff |   ChiPrec |
+
+
+|                 |   ReqRefTime |    Omega0 |   $Omega_ref$ |   D0 |   MassRatio | ChiA            | $ChiA_ref$                    | ChiB            | $ChiB_ref$                    |   ChiEff |   ChiPrec |
 |:----------------|-------------:|----------:|------------:|-----:|------------:|:----------------|:----------------------------|:----------------|:----------------------------|---------:|----------:|
 | eccprecrun4b    |          330 | 0.0190602 |     0.00429 | 14.4 |           2 | (0.1, 0.1, 0.2) | (0.08876, 0.10947, 0.20035) | (0.3, 0.0, 0.3) | (0.29346, 0.05178, 0.30195) | 0.233333 |  0.141421 |
 | EccPrecDiff002  |          730 | 0.0145989 |     0.00167 | 18   |           1 | (0.0, 0.2, 0.2) | (-0.02181, 0.19931, 0.1995) | (0.2, 0.0, 0.2) | (0.19885, 0.02167, 0.19996) | 0.2      |  0.2      |
@@ -163,7 +165,12 @@ This page was first created on Feb 20, 2024.
 | EccPrecDiff001  |          730 | 0.0145989 |     0.00167 | 18   |           1 | (0.0, 0.2, 0.2) | (-0.02181, 0.19931, 0.1995) | (0.2, 0.0, 0.2) | (0.19885, 0.02167, 0.19997) | 0.2      |  0.2      |
 | EccPrecDiff003a |          nan | 0.0190602 |   nan       | 11   |           2 | (0.1, 0.1, 0.2) | nan                         | (0.3, 0.0, 0.3) | nan                         | 0.233333 |  0.141421 |
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 ## 4. A small excerpt
