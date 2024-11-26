@@ -31,16 +31,16 @@ This page was first created on Feb 20, 2024.
 
 # Sample waveform
 
-![One waveform](eccprec01.png)
+![One waveform](https://github.com/vaishakp/nrsimulations/blob/770169c6e54d8d130e7e8d5d04da80d61eee4c49/eccprec01.png)
 
 # Parameter space
 
-![qChiPrec](SpEC_sims.png)
-![len](SpEC_sims_lengths.png)
+![qChiPrec](https://github.com/vaishakp/nrsimulations/blob/770169c6e54d8d130e7e8d5d04da80d61eee4c49/SpEC_sims.png)
+![len](https://github.com/vaishakp/nrsimulations/blob/770169c6e54d8d130e7e8d5d04da80d61eee4c49/SpEC_sims_lengths.png)
 
 # Simulation diagnostics
 
-[Simulation summary](summary_7Aug.pdf)
+[Simulation summary](https://github.com/vaishakp/nrsimulations/blob/770169c6e54d8d130e7e8d5d04da80d61eee4c49/summary_7Aug.pdf)
 
 # Database of simulations
 
@@ -95,7 +95,11 @@ This page was first created on Feb 20, 2024.
 | ICTSEccParallel16 |          338 | 0.0125938  |     0.01369 | 17.1107 |         5   | (0.0, 0.0, 0.6)   | (0.0, -0.0, 0.6)              | (0.0, 0.0, 0.3)  | (0.0, -0.0, 0.29999)          |  0.55     |  0        |
 | ICTSEccParallel17 |          338 | 0.0125938  |     0.01589 | 17.1107 |         5   | (0.0, 0.0, -0.6)  | (0.0, -0.0, -0.59999)         | (0.0, 0.0, -0.3) | (0.0, 0.0, -0.29999)          | -0.55     |  0        |
 
+
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 ## 2. EccContPrec
