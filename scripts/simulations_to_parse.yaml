@@ -1,0 +1,8 @@
+Cases: 
+    ICTSEccParallel: /mnt/pfs/vaishak.p/sims/SpEC/gcc/bfi/ICTSEccParallel
+    EccContPrecDiff: /mnt/pfs/vaishak.p/sims/SpEC/gcc/bfi/EccContPrecDiff
+    EccPrecDiff: /mnt/pfs/vaishak.p/sims/SpEC/gcc/bfi/EccPrecDiff
+
+BFI_HOME: /mnt/pfs/vaishak.p/sims/SpEC/BFI/BFI
+
+WAVEFORMS_OUT_DIR: /mnt/pfs/vaishak.p/Projects/Codes/waveforms
