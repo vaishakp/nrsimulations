@@ -14,5 +14,6 @@ do
     echo 1
     python get_sim_status.py
     bash commit_sim_status.sh
+    echo "Done one update iteration"
     sleep 60m
 done
