@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 05/12/2024 20:32:50 
+### Last updated: 	 05/12/2024 21:32:59 
 
 ### Status
 
@@ -18,13 +18,13 @@
 | ICTSEccParallel04_Lev3 | RD_AA                 | Completed       | Completed  |              |
 | ICTSEccParallel05_Lev2 | RD_AA                 | Completed       | Completed  |              |
 | ICTSEccParallel05_Lev3 | RD_AA                 | Completed       | Completed  |              |
-| ICTSEccParallel06_Lev2 | RD_AC                 | Halted          | Halted     |              |
+| ICTSEccParallel06_Lev2 | RD_AD                 | Running         | Running    | sonic2       |
 | ICTSEccParallel06_Lev3 | RD_AG                 | Completed       | Completed  |              |
 | ICTSEccParallel07_Lev2 | RD_AC                 | Completed       | Completed  |              |
 | ICTSEccParallel07_Lev3 | RD_olSysInit0_Lev3_AA | To be submitted | No Run dir |              |
 | ICTSEccParallel08_Lev2 | RD_AB                 | Completed       | Completed  |              |
 | ICTSEccParallel08_Lev3 | RD_AB                 | Completed       | Completed  |              |
-| ICTSEccParallel09_Lev3 | AI                    | Halted          | Halted     |              |
+| ICTSEccParallel09_Lev3 | AJ                    | To be submitted | No Run dir |              |
 | ICTSEccParallel10_Lev2 | RD_AG                 | Halted          | Halted     |              |
 | ICTSEccParallel10_Lev3 | RD_AF                 | Halted          | Halted     |              |
 | ICTSEccParallel11_Lev2 | AA                    | To be submitted | No Run dir |              |
@@ -45,7 +45,7 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 05/12/2024 20:32:50 
+### Last updated: 	 05/12/2024 21:33:00 
 
 ### Status
 
@@ -71,7 +71,7 @@
 
 ## EccPrecDiff 
 
-### Last updated: 	 05/12/2024 20:32:51 
+### Last updated: 	 05/12/2024 21:33:00 
 
 ### Status
 
