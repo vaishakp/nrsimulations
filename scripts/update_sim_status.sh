@@ -5,7 +5,7 @@ conda activate wprep
 
 GIT_DIR="$(git rev-parse --show-toplevel)"
 
-TERMINATE=$(cat ${GIT_DIR}/scripts/terminate.txt)
+TERMINATE=$(cat ${GIT_DIR}/scripts/terminate.txt)e
 
 #TERMINATE = "$(boolean "${terminate_int}")"
 
