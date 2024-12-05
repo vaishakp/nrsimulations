@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 05/12/2024 13:08:36 
+### Last updated: 	 05/12/2024 14:05:09 
 
 ### Status
 
@@ -23,7 +23,7 @@
 | ICTSEccParallel07_Lev2 | RD_AC                 | Completed       | Completed  |              |
 | ICTSEccParallel07_Lev3 | RD_olSysInit0_Lev3_AA | To be submitted | No Run dir |              |
 | ICTSEccParallel08_Lev2 | RD_AB                 | Completed       | Completed  |              |
-| ICTSEccParallel08_Lev3 | RD_AB                 | Running         | Running    | sonic7       |
+| ICTSEccParallel08_Lev3 | RD_AB                 | Completed       | Completed  |              |
 | ICTSEccParallel09_Lev3 | AI                    | Running         | Running    | sonic8       |
 | ICTSEccParallel10_Lev2 | RD_AF                 | Unknown         | Unknown    |              |
 | ICTSEccParallel10_Lev3 | RD_AE                 | Error           | Error      |              |
@@ -45,7 +45,7 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 05/12/2024 13:08:37 
+### Last updated: 	 05/12/2024 14:05:09 
 
 ### Status
 
@@ -71,7 +71,7 @@
 
 ## EccPrecDiff 
 
-### Last updated: 	 05/12/2024 13:08:37 
+### Last updated: 	 05/12/2024 14:05:10 
 
 ### Status
 
