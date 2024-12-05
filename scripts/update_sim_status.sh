@@ -1,8 +1,11 @@
 #!/bin/bash
 
+. /mnt/pfs/vaishak.p/soft/anaconda3_2023/bin/activate
 conda activate wprep
 
-TERMINATE=$(cat scripts/terminate.txt)
+GIT_DIR="$(git rev-parse --show-toplevel)"
+
+TERMINATE=$(cat ${GIT_DIR}/scripts/terminate.txt)
 
 #TERMINATE = "$(boolean "${terminate_int}")"
 
