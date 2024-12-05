@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 05/12/2024 22:39:09 
+### Last updated: 	 05/12/2024 23:02:10 
 
 ### Status
 
@@ -25,7 +25,7 @@
 | ICTSEccParallel08_Lev2 | RD_AB     | Completed       | Completed  |              |
 | ICTSEccParallel08_Lev3 | RD_AB     | Completed       | Completed  |              |
 | ICTSEccParallel09_Lev3 | AJ        | Running         | Running    | sonic6       |
-| ICTSEccParallel10_Lev2 | RD_AH     | Unknown         | Unknown    | sonic8       |
+| ICTSEccParallel10_Lev2 | RD_AH     | Running         | Running    | sonic8       |
 | ICTSEccParallel10_Lev3 | RD_AG     | Running         | Running    | sonic7       |
 | ICTSEccParallel11_Lev2 | AA        | Unknown         | Unknown    | sonic9       |
 | ICTSEccParallel11_Lev3 | AI        | Halted          | Halted     |              |
@@ -45,7 +45,7 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 05/12/2024 22:39:10 
+### Last updated: 	 05/12/2024 23:02:10 
 
 ### Status
 
@@ -54,7 +54,7 @@
 | EccContPrecDiff001_Lev3 | RD_AB     | Completed       | Completed  |              |
 | EccContPrecDiff001_Lev4 | RD_AC     | Completed       | Completed  |              |
 | EccContPrecDiff002_Lev3 | AV        | To be submitted | No Run dir |              |
-| EccContPrecDiff002_Lev4 | AQ        | To be submitted | No Run dir |              |
+| EccContPrecDiff002_Lev4 | AQ        | Running         | Running    | sonic11      |
 | EccContPrecDiff003_Lev2 | RD_AA     | Completed       | Completed  |              |
 | EccContPrecDiff003_Lev3 | RD_AA     | Completed       | Completed  |              |
 | EccContPrecDiff004_Lev2 | RD_AA     | Completed       | Completed  |              |
@@ -71,7 +71,7 @@
 
 ## EccPrecDiff 
 
-### Last updated: 	 05/12/2024 22:39:10 
+### Last updated: 	 05/12/2024 23:02:11 
 
 ### Status
 
@@ -79,7 +79,7 @@
 |:---------------------|:----------|:----------------|:-----------|:-------------|
 | EccPrecDiff001_Lev2  | RD_AB     | Completed       | Completed  |              |
 | EccPrecDiff001_Lev3  | AL        | To be submitted | No Run dir |              |
-| EccPrecDiff001_Lev4  | AE        | To be submitted | No Run dir |              |
+| EccPrecDiff001_Lev4  | AE        | Running         | Running    | sonic[12,14] |
 | EccPrecDiff002_Lev2  | RD_AB     | Completed       | Completed  |              |
 | EccPrecDiff002_Lev3  | RD_AB     | Completed       | Completed  |              |
 | EccPrecDiff003_Lev3  | AG        | Unknown         | Unknown    |              |
