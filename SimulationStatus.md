@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 07/12/2024 15:08:18 
+### Last updated: 	 07/12/2024 16:08:27 
 
 ### Status
 
@@ -35,7 +35,7 @@
 | ICTSEccParallel13_Lev3 | ER        | Unknown         | Unknown    |              |
 | ICTSEccParallel14_Lev2 | RD_AF     | To be submitted | No Run dir |              |
 | ICTSEccParallel14_Lev3 | RD_AH     | Completed       | Completed  |              |
-| ICTSEccParallel15_Lev2 | RD_AA     | Running         | Running    | sonic10      |
+| ICTSEccParallel15_Lev2 | RD_AA     | Unknown         | Unknown    | sonic10      |
 | ICTSEccParallel15_Lev3 | AH        | Halted          | Halted     |              |
 | ICTSEccParallel16_Lev2 | RD_AC     | Completed       | Completed  |              |
 | ICTSEccParallel16_Lev3 | RD_AD     | Completed       | Completed  |              |
@@ -45,7 +45,7 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 07/12/2024 15:08:18 
+### Last updated: 	 07/12/2024 16:08:27 
 
 ### Status
 
@@ -71,14 +71,14 @@
 
 ## EccPrecDiff 
 
-### Last updated: 	 07/12/2024 15:08:19 
+### Last updated: 	 07/12/2024 16:08:28 
 
 ### Status
 
 |                      | Segment   | Status    | Comment   | Allocation   |
 |:---------------------|:----------|:----------|:----------|:-------------|
 | EccPrecDiff001_Lev2  | RD_AB     | Completed | Completed |              |
-| EccPrecDiff001_Lev3  | AM        | Running   | Running   | sonic12      |
+| EccPrecDiff001_Lev3  | AM        | Unknown   | Unknown   | sonic12      |
 | EccPrecDiff001_Lev4  | AF        | Running   | Running   | sonic14      |
 | EccPrecDiff002_Lev2  | RD_AB     | Completed | Completed |              |
 | EccPrecDiff002_Lev3  | RD_AB     | Completed | Completed |              |
