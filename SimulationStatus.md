@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 07/12/2024 12:07:51 
+### Last updated: 	 07/12/2024 13:08:00 
 
 ### Status
 
@@ -27,7 +27,7 @@
 | ICTSEccParallel09_Lev3 | AK        | Running         | Running    | sonic11      |
 | ICTSEccParallel10_Lev2 | RD_AH     | Completed       | Completed  |              |
 | ICTSEccParallel10_Lev3 | RD_AH     | Running         | Running    | sonic7       |
-| ICTSEccParallel11_Lev2 | AD        | Running         | Running    | sonic12      |
+| ICTSEccParallel11_Lev2 | AD        | Unknown         | Unknown    |              |
 | ICTSEccParallel11_Lev3 | AI        | Halted          | Halted     |              |
 | ICTSEccParallel12_Lev2 | RD_AE     | Error           | Error      |              |
 | ICTSEccParallel12_Lev3 | RD_AH     | Unknown         | Unknown    |              |
@@ -35,7 +35,7 @@
 | ICTSEccParallel13_Lev3 | ER        | Unknown         | Unknown    |              |
 | ICTSEccParallel14_Lev2 | RD_AF     | To be submitted | No Run dir |              |
 | ICTSEccParallel14_Lev3 | RD_AH     | Completed       | Completed  |              |
-| ICTSEccParallel15_Lev2 | RD_AA     | Unknown         | Unknown    | sonic10      |
+| ICTSEccParallel15_Lev2 | RD_AA     | Running         | Running    | sonic10      |
 | ICTSEccParallel15_Lev3 | AH        | Halted          | Halted     |              |
 | ICTSEccParallel16_Lev2 | RD_AC     | Completed       | Completed  |              |
 | ICTSEccParallel16_Lev3 | RD_AD     | Completed       | Completed  |              |
@@ -45,7 +45,7 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 07/12/2024 12:07:51 
+### Last updated: 	 07/12/2024 13:08:00 
 
 ### Status
 
@@ -71,24 +71,24 @@
 
 ## EccPrecDiff 
 
-### Last updated: 	 07/12/2024 12:07:52 
+### Last updated: 	 07/12/2024 13:08:01 
 
 ### Status
 
-|                      | Segment   | Status          | Comment    | Allocation   |
-|:---------------------|:----------|:----------------|:-----------|:-------------|
-| EccPrecDiff001_Lev2  | RD_AB     | Completed       | Completed  |              |
-| EccPrecDiff001_Lev3  | AM        | To be submitted | No Run dir |              |
-| EccPrecDiff001_Lev4  | AF        | Running         | Running    | sonic14      |
-| EccPrecDiff002_Lev2  | RD_AB     | Completed       | Completed  |              |
-| EccPrecDiff002_Lev3  | RD_AB     | Completed       | Completed  |              |
-| EccPrecDiff003_Lev3  | AG        | Unknown         | Unknown    |              |
-| EccPrecDiff003a_Lev2 | AG        | Unknown         | Unknown    |              |
-| EccPrecDiff003a_Lev3 | AG        | Error           | Error      |              |
-| EccPrecDiff003a_Lev4 | AG        | Error           | Error      |              |
-| eccprecrun4b_Lev2    | AR        | Error           | Error      |              |
-| eccprecrun4b_Lev3    | RD_AB     | Completed       | Completed  |              |
-| eccprecrun4b_Lev4    | AQ        | Halted          | Halted     |              |
-| eccprecrun4b_Lev5    | AN        | Halted          | Halted     |              |
+|                      | Segment   | Status    | Comment   | Allocation   |
+|:---------------------|:----------|:----------|:----------|:-------------|
+| EccPrecDiff001_Lev2  | RD_AB     | Completed | Completed |              |
+| EccPrecDiff001_Lev3  | AM        | Unknown   | Unknown   | sonic12      |
+| EccPrecDiff001_Lev4  | AF        | Unknown   | Unknown   | sonic14      |
+| EccPrecDiff002_Lev2  | RD_AB     | Completed | Completed |              |
+| EccPrecDiff002_Lev3  | RD_AB     | Completed | Completed |              |
+| EccPrecDiff003_Lev3  | AG        | Unknown   | Unknown   |              |
+| EccPrecDiff003a_Lev2 | AG        | Unknown   | Unknown   |              |
+| EccPrecDiff003a_Lev3 | AG        | Error     | Error     |              |
+| EccPrecDiff003a_Lev4 | AG        | Error     | Error     |              |
+| eccprecrun4b_Lev2    | AR        | Error     | Error     |              |
+| eccprecrun4b_Lev3    | RD_AB     | Completed | Completed |              |
+| eccprecrun4b_Lev4    | AQ        | Halted    | Halted    |              |
+| eccprecrun4b_Lev5    | AN        | Halted    | Halted    |              |
 
 
