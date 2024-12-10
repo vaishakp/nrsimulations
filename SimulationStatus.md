@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 11/12/2024 01:20:15 
+### Last updated: 	 11/12/2024 02:20:24 
 
 ### Status
 
@@ -21,19 +21,19 @@
 | ICTSEccParallel06_Lev2 | RD_AE     | To be submitted | No Run dir |              |
 | ICTSEccParallel06_Lev3 | RD_AG     | Completed       | Completed  |              |
 | ICTSEccParallel07_Lev2 | RD_AC     | Completed       | Completed  |              |
-| ICTSEccParallel07_Lev3 | RD_AD     | To be submitted | No Run dir |              |
+| ICTSEccParallel07_Lev3 | RD_AD     | Running         | Running    | sonic2       |
 | ICTSEccParallel08_Lev2 | RD_AB     | Completed       | Completed  |              |
 | ICTSEccParallel08_Lev3 | RD_AB     | Completed       | Completed  |              |
-| ICTSEccParallel09_Lev3 | AL        | To be submitted | No Run dir |              |
+| ICTSEccParallel09_Lev3 | AL        | Running         | Running    | sonic3       |
 | ICTSEccParallel10_Lev2 | RD_AH     | Completed       | Completed  |              |
-| ICTSEccParallel10_Lev3 | RD_AI     | To be submitted | No Run dir |              |
-| ICTSEccParallel11_Lev2 | AE        | Unknown         | Unknown    |              |
+| ICTSEccParallel10_Lev3 | RD_AI     | Running         | Running    | sonic9       |
+| ICTSEccParallel11_Lev2 | AF        | Running         | Running    | sonic10      |
 | ICTSEccParallel11_Lev3 | AI        | Halted          | Halted     |              |
 | ICTSEccParallel12_Lev2 | RD_AE     | Error           | Error      |              |
 | ICTSEccParallel12_Lev3 | RD_AI     | Error           | Error      |              |
 | ICTSEccParallel13_Lev2 | RD_AF     | Completed       | Completed  |              |
 | ICTSEccParallel13_Lev3 | ER        | Unknown         | Unknown    |              |
-| ICTSEccParallel14_Lev2 | RD_AF     | To be submitted | No Run dir |              |
+| ICTSEccParallel14_Lev2 | RD_AF     | Running         | Running    | sonic14      |
 | ICTSEccParallel14_Lev3 | RD_AH     | Completed       | Completed  |              |
 | ICTSEccParallel15_Lev2 | RD_AA     | Completed       | Completed  |              |
 | ICTSEccParallel15_Lev3 | AH        | Halted          | Halted     |              |
@@ -45,7 +45,7 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 11/12/2024 01:20:16 
+### Last updated: 	 11/12/2024 02:20:24 
 
 ### Status
 
@@ -71,7 +71,7 @@
 
 ## EccPrecDiff 
 
-### Last updated: 	 11/12/2024 01:20:16 
+### Last updated: 	 11/12/2024 02:20:25 
 
 ### Status
 
