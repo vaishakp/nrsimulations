@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 19/12/2024 00:49:49 
+### Last updated: 	 19/12/2024 01:49:58 
 
 ### Status
 
@@ -18,7 +18,7 @@
 | ICTSEccParallel04_Lev3 | RD_AA     | Completed | Completed |              |
 | ICTSEccParallel05_Lev2 | RD_AA     | Completed | Completed |              |
 | ICTSEccParallel05_Lev3 | RD_AA     | Completed | Completed |              |
-| ICTSEccParallel06_Lev2 | RD_AE     | Running   | Running   | sonic11      |
+| ICTSEccParallel06_Lev2 | RD_AE     | Unknown   | Unknown   | sonic11      |
 | ICTSEccParallel06_Lev3 | RD_AG     | Completed | Completed |              |
 | ICTSEccParallel07_Lev2 | RD_AC     | Completed | Completed |              |
 | ICTSEccParallel07_Lev3 | RD_AD     | Completed | Completed |              |
@@ -27,7 +27,7 @@
 | ICTSEccParallel09_Lev3 | AO        | Running   | Running   | sonic10      |
 | ICTSEccParallel10_Lev2 | RD_AH     | Completed | Completed |              |
 | ICTSEccParallel10_Lev3 | RD_AI     | Completed | Completed |              |
-| ICTSEccParallel11_Lev2 | AJ        | Running   | Running   | sonic14      |
+| ICTSEccParallel11_Lev2 | AJ        | Unknown   | Unknown   |              |
 | ICTSEccParallel11_Lev3 | AI        | Halted    | Halted    |              |
 | ICTSEccParallel12_Lev2 | RD_AE     | Error     | Error     |              |
 | ICTSEccParallel12_Lev3 | RD_AJ     | Completed | Completed |              |
@@ -45,7 +45,7 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 19/12/2024 00:49:50 
+### Last updated: 	 19/12/2024 01:49:59 
 
 ### Status
 
@@ -53,7 +53,7 @@
 |:------------------------|:----------|:----------|:----------|:-------------|
 | EccContPrecDiff001_Lev3 | RD_AB     | Completed | Completed |              |
 | EccContPrecDiff001_Lev4 | RD_AC     | Completed | Completed |              |
-| EccContPrecDiff002_Lev3 | AZ        | Running   | Running   | sonic7       |
+| EccContPrecDiff002_Lev3 | AZ        | Unknown   | Unknown   | sonic7       |
 | EccContPrecDiff002_Lev4 | AV        | Running   | Running   | sonic6       |
 | EccContPrecDiff003_Lev2 | RD_AA     | Completed | Completed |              |
 | EccContPrecDiff003_Lev3 | RD_AA     | Completed | Completed |              |
@@ -71,7 +71,7 @@
 
 ## EccPrecDiff 
 
-### Last updated: 	 19/12/2024 00:49:50 
+### Last updated: 	 19/12/2024 01:49:59 
 
 ### Status
 
