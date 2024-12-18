@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 19/12/2024 03:50:15 
+### Last updated: 	 19/12/2024 04:50:24 
 
 ### Status
 
@@ -18,7 +18,7 @@
 | ICTSEccParallel04_Lev3 | RD_AA     | Completed | Completed |              |
 | ICTSEccParallel05_Lev2 | RD_AA     | Completed | Completed |              |
 | ICTSEccParallel05_Lev3 | RD_AA     | Completed | Completed |              |
-| ICTSEccParallel06_Lev2 | RD_AE     | Unknown   | Unknown   | sonic11      |
+| ICTSEccParallel06_Lev2 | RD_AE     | Running   | Running   | sonic11      |
 | ICTSEccParallel06_Lev3 | RD_AG     | Completed | Completed |              |
 | ICTSEccParallel07_Lev2 | RD_AC     | Completed | Completed |              |
 | ICTSEccParallel07_Lev3 | RD_AD     | Completed | Completed |              |
@@ -45,7 +45,7 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 19/12/2024 03:50:16 
+### Last updated: 	 19/12/2024 04:50:25 
 
 ### Status
 
@@ -54,7 +54,7 @@
 | EccContPrecDiff001_Lev3 | RD_AB     | Completed | Completed |              |
 | EccContPrecDiff001_Lev4 | RD_AC     | Completed | Completed |              |
 | EccContPrecDiff002_Lev3 | AZ        | Running   | Running   | sonic7       |
-| EccContPrecDiff002_Lev4 | AV        | Running   | Running   | sonic6       |
+| EccContPrecDiff002_Lev4 | AV        | Unknown   | Unknown   | sonic6       |
 | EccContPrecDiff003_Lev2 | RD_AA     | Completed | Completed |              |
 | EccContPrecDiff003_Lev3 | RD_AA     | Completed | Completed |              |
 | EccContPrecDiff004_Lev2 | RD_AA     | Completed | Completed |              |
@@ -71,24 +71,24 @@
 
 ## EccPrecDiff 
 
-### Last updated: 	 19/12/2024 03:50:17 
+### Last updated: 	 19/12/2024 04:50:26 
 
 ### Status
 
-|                      | Segment   | Status    | Comment   | Allocation   |
-|:---------------------|:----------|:----------|:----------|:-------------|
-| EccPrecDiff001_Lev2  | RD_AB     | Completed | Completed |              |
-| EccPrecDiff001_Lev3  | AR        | Running   | Running   | sonic9       |
-| EccPrecDiff001_Lev4  | AJ        | Running   | Running   | sonic8       |
-| EccPrecDiff002_Lev2  | RD_AB     | Completed | Completed |              |
-| EccPrecDiff002_Lev3  | RD_AB     | Completed | Completed |              |
-| EccPrecDiff003_Lev3  | AG        | Unknown   | Unknown   |              |
-| EccPrecDiff003a_Lev2 | AG        | Unknown   | Unknown   |              |
-| EccPrecDiff003a_Lev3 | AG        | Error     | Error     |              |
-| EccPrecDiff003a_Lev4 | AG        | Error     | Error     |              |
-| eccprecrun4b_Lev2    | AR        | Error     | Error     |              |
-| eccprecrun4b_Lev3    | RD_AB     | Completed | Completed |              |
-| eccprecrun4b_Lev4    | AQ        | Halted    | Halted    |              |
-| eccprecrun4b_Lev5    | AN        | Halted    | Halted    |              |
+|                      | Segment   | Status          | Comment    | Allocation   |
+|:---------------------|:----------|:----------------|:-----------|:-------------|
+| EccPrecDiff001_Lev2  | RD_AB     | Completed       | Completed  |              |
+| EccPrecDiff001_Lev3  | AS        | To be submitted | No Run dir |              |
+| EccPrecDiff001_Lev4  | AJ        | Running         | Running    | sonic8       |
+| EccPrecDiff002_Lev2  | RD_AB     | Completed       | Completed  |              |
+| EccPrecDiff002_Lev3  | RD_AB     | Completed       | Completed  |              |
+| EccPrecDiff003_Lev3  | AG        | Unknown         | Unknown    |              |
+| EccPrecDiff003a_Lev2 | AG        | Unknown         | Unknown    |              |
+| EccPrecDiff003a_Lev3 | AG        | Error           | Error      |              |
+| EccPrecDiff003a_Lev4 | AG        | Error           | Error      |              |
+| eccprecrun4b_Lev2    | AR        | Error           | Error      |              |
+| eccprecrun4b_Lev3    | RD_AB     | Completed       | Completed  |              |
+| eccprecrun4b_Lev4    | AQ        | Halted          | Halted     |              |
+| eccprecrun4b_Lev5    | AN        | Halted          | Halted     |              |
 
 
