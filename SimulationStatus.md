@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 18/12/2024 19:49:04 
+### Last updated: 	 18/12/2024 20:49:13 
 
 ### Status
 
@@ -45,7 +45,7 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 18/12/2024 19:49:04 
+### Last updated: 	 18/12/2024 20:49:14 
 
 ### Status
 
@@ -53,7 +53,7 @@
 |:------------------------|:----------|:----------|:----------|:-------------|
 | EccContPrecDiff001_Lev3 | RD_AB     | Completed | Completed |              |
 | EccContPrecDiff001_Lev4 | RD_AC     | Completed | Completed |              |
-| EccContPrecDiff002_Lev3 | AY        | Unknown   | Unknown   | sonic11      |
+| EccContPrecDiff002_Lev3 | AY        | Running   | Running   | sonic11      |
 | EccContPrecDiff002_Lev4 | AU        | Running   | Running   | sonic10      |
 | EccContPrecDiff003_Lev2 | RD_AA     | Completed | Completed |              |
 | EccContPrecDiff003_Lev3 | RD_AA     | Completed | Completed |              |
@@ -71,7 +71,7 @@
 
 ## EccPrecDiff 
 
-### Last updated: 	 18/12/2024 19:49:05 
+### Last updated: 	 18/12/2024 20:49:14 
 
 ### Status
 
