@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 18/12/2024 22:49:31 
+### Last updated: 	 18/12/2024 23:49:39 
 
 ### Status
 
@@ -27,7 +27,7 @@
 | ICTSEccParallel09_Lev3 | AO        | Running   | Running   | sonic10      |
 | ICTSEccParallel10_Lev2 | RD_AH     | Completed | Completed |              |
 | ICTSEccParallel10_Lev3 | RD_AI     | Completed | Completed |              |
-| ICTSEccParallel11_Lev2 | AJ        | Unknown   | Unknown   | sonic14      |
+| ICTSEccParallel11_Lev2 | AJ        | Running   | Running   | sonic14      |
 | ICTSEccParallel11_Lev3 | AI        | Halted    | Halted    |              |
 | ICTSEccParallel12_Lev2 | RD_AE     | Error     | Error     |              |
 | ICTSEccParallel12_Lev3 | RD_AJ     | Completed | Completed |              |
@@ -45,7 +45,7 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 18/12/2024 22:49:31 
+### Last updated: 	 18/12/2024 23:49:40 
 
 ### Status
 
@@ -53,7 +53,7 @@
 |:------------------------|:----------|:----------|:----------|:-------------|
 | EccContPrecDiff001_Lev3 | RD_AB     | Completed | Completed |              |
 | EccContPrecDiff001_Lev4 | RD_AC     | Completed | Completed |              |
-| EccContPrecDiff002_Lev3 | AZ        | Unknown   | Unknown   | sonic7       |
+| EccContPrecDiff002_Lev3 | AZ        | Running   | Running   | sonic7       |
 | EccContPrecDiff002_Lev4 | AV        | Running   | Running   | sonic6       |
 | EccContPrecDiff003_Lev2 | RD_AA     | Completed | Completed |              |
 | EccContPrecDiff003_Lev3 | RD_AA     | Completed | Completed |              |
@@ -71,7 +71,7 @@
 
 ## EccPrecDiff 
 
-### Last updated: 	 18/12/2024 22:49:32 
+### Last updated: 	 18/12/2024 23:49:41 
 
 ### Status
 
@@ -79,7 +79,7 @@
 |:---------------------|:----------|:----------|:----------|:-------------|
 | EccPrecDiff001_Lev2  | RD_AB     | Completed | Completed |              |
 | EccPrecDiff001_Lev3  | AR        | Running   | Running   | sonic9       |
-| EccPrecDiff001_Lev4  | AJ        | Unknown   | Unknown   | sonic8       |
+| EccPrecDiff001_Lev4  | AJ        | Running   | Running   | sonic8       |
 | EccPrecDiff002_Lev2  | RD_AB     | Completed | Completed |              |
 | EccPrecDiff002_Lev3  | RD_AB     | Completed | Completed |              |
 | EccPrecDiff003_Lev3  | AG        | Unknown   | Unknown   |              |
