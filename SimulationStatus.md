@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 22/12/2024 00:00:31 
+### Last updated: 	 22/12/2024 01:00:41 
 
 ### Status
 
@@ -45,7 +45,7 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 22/12/2024 00:00:32 
+### Last updated: 	 22/12/2024 01:00:41 
 
 ### Status
 
@@ -54,7 +54,7 @@
 | EccContPrecDiff001_Lev3 | RD_AB     | Completed | Completed |              |
 | EccContPrecDiff001_Lev4 | RD_AC     | Completed | Completed |              |
 | EccContPrecDiff002_Lev3 | BA        | Running   | Running   | sonic6       |
-| EccContPrecDiff002_Lev4 | AW        | Unknown   | Unknown   | sonic7       |
+| EccContPrecDiff002_Lev4 | AW        | Running   | Running   | sonic7       |
 | EccContPrecDiff003_Lev2 | RD_AA     | Completed | Completed |              |
 | EccContPrecDiff003_Lev3 | RD_AA     | Completed | Completed |              |
 | EccContPrecDiff004_Lev2 | RD_AA     | Completed | Completed |              |
@@ -71,14 +71,14 @@
 
 ## EccPrecDiff 
 
-### Last updated: 	 22/12/2024 00:00:33 
+### Last updated: 	 22/12/2024 01:00:42 
 
 ### Status
 
 |                      | Segment   | Status          | Comment    | Allocation   |
 |:---------------------|:----------|:----------------|:-----------|:-------------|
 | EccPrecDiff001_Lev2  | RD_AB     | Completed       | Completed  |              |
-| EccPrecDiff001_Lev3  | AS        | Running         | Running    | sonic8       |
+| EccPrecDiff001_Lev3  | AT        | Running         | Running    | sonic8       |
 | EccPrecDiff001_Lev4  | AK        | To be submitted | No Run dir |              |
 | EccPrecDiff002_Lev2  | RD_AB     | Completed       | Completed  |              |
 | EccPrecDiff002_Lev3  | RD_AB     | Completed       | Completed  |              |
