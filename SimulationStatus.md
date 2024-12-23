@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 24/12/2024 04:09:28 
+### Last updated: 	 24/12/2024 05:09:55 
 
 ### Status
 
@@ -35,7 +35,7 @@
 | ICTSEccParallel13_Lev3 | ES        | Unknown         | Unknown    |              |
 | ICTSEccParallel14_Lev2 | RD_AF     | Completed       | Completed  |              |
 | ICTSEccParallel14_Lev3 | RD_AH     | Completed       | Completed  |              |
-| ICTSEccParallel15_Lev2 | RD_AA     | Completed       | Completed  |              |
+| ICTSEccParallel15_Lev2 | RD_AB     | To be submitted | No Run dir |              |
 | ICTSEccParallel15_Lev3 | AH        | Halted          | Halted     |              |
 | ICTSEccParallel16_Lev2 | RD_AC     | Completed       | Completed  |              |
 | ICTSEccParallel16_Lev3 | RD_AD     | Completed       | Completed  |              |
@@ -45,33 +45,33 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 24/12/2024 04:09:28 
+### Last updated: 	 24/12/2024 05:09:56 
 
 ### Status
 
-|                         | Segment   | Status          | Comment    | Allocation   |
-|:------------------------|:----------|:----------------|:-----------|:-------------|
-| EccContPrecDiff001_Lev3 | RD_AB     | Completed       | Completed  |              |
-| EccContPrecDiff001_Lev4 | RD_AC     | Completed       | Completed  |              |
-| EccContPrecDiff002_Lev3 | BC        | To be submitted | No Run dir |              |
-| EccContPrecDiff002_Lev4 | AY        | To be submitted | No Run dir |              |
-| EccContPrecDiff003_Lev2 | RD_AA     | Completed       | Completed  |              |
-| EccContPrecDiff003_Lev3 | RD_AA     | Completed       | Completed  |              |
-| EccContPrecDiff004_Lev2 | RD_AA     | Completed       | Completed  |              |
-| EccContPrecDiff004_Lev3 | RD_AA     | Completed       | Completed  |              |
-| EccContPrecDiff005_Lev2 | RD_AA     | Completed       | Completed  |              |
-| EccContPrecDiff005_Lev3 | RD_AA     | Completed       | Completed  |              |
-| EccContPrecDiff006_Lev2 | RD_AA     | Completed       | Completed  |              |
-| EccContPrecDiff006_Lev3 | RD_AA     | Completed       | Completed  |              |
-| EccContPrecDiff007_Lev2 | RD_AA     | Completed       | Completed  |              |
-| EccContPrecDiff007_Lev3 | RD_AA     | Completed       | Completed  |              |
-| EccContPrecDiff008_Lev2 | RD_AA     | Completed       | Completed  |              |
-| EccContPrecDiff008_Lev3 | RD_AA     | Completed       | Completed  |              |
+|                         | Segment   | Status    | Comment   | Allocation   |
+|:------------------------|:----------|:----------|:----------|:-------------|
+| EccContPrecDiff001_Lev3 | RD_AB     | Completed | Completed |              |
+| EccContPrecDiff001_Lev4 | RD_AC     | Completed | Completed |              |
+| EccContPrecDiff002_Lev3 | BC        | Running   | Running   | sonic14      |
+| EccContPrecDiff002_Lev4 | AY        | Running   | Running   | sonic7       |
+| EccContPrecDiff003_Lev2 | RD_AA     | Completed | Completed |              |
+| EccContPrecDiff003_Lev3 | RD_AA     | Completed | Completed |              |
+| EccContPrecDiff004_Lev2 | RD_AA     | Completed | Completed |              |
+| EccContPrecDiff004_Lev3 | RD_AA     | Completed | Completed |              |
+| EccContPrecDiff005_Lev2 | RD_AA     | Completed | Completed |              |
+| EccContPrecDiff005_Lev3 | RD_AA     | Completed | Completed |              |
+| EccContPrecDiff006_Lev2 | RD_AA     | Completed | Completed |              |
+| EccContPrecDiff006_Lev3 | RD_AA     | Completed | Completed |              |
+| EccContPrecDiff007_Lev2 | RD_AA     | Completed | Completed |              |
+| EccContPrecDiff007_Lev3 | RD_AA     | Completed | Completed |              |
+| EccContPrecDiff008_Lev2 | RD_AA     | Completed | Completed |              |
+| EccContPrecDiff008_Lev3 | RD_AA     | Completed | Completed |              |
 
 
 ## EccPrecDiff 
 
-### Last updated: 	 24/12/2024 04:09:29 
+### Last updated: 	 24/12/2024 05:09:56 
 
 ### Status
 
@@ -79,7 +79,7 @@
 |:---------------------|:----------|:----------------|:-----------|:-------------|
 | EccPrecDiff001_Lev2  | RD_AB     | Completed       | Completed  |              |
 | EccPrecDiff001_Lev3  | RD_AA     | To be submitted | No Run dir |              |
-| EccPrecDiff001_Lev4  | AL        | To be submitted | No Run dir |              |
+| EccPrecDiff001_Lev4  | AL        | Running         | Running    | sonic6       |
 | EccPrecDiff002_Lev2  | RD_AB     | Completed       | Completed  |              |
 | EccPrecDiff002_Lev3  | RD_AB     | Completed       | Completed  |              |
 | EccPrecDiff003_Lev3  | AG        | Unknown         | Unknown    |              |
