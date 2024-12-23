@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 23/12/2024 10:05:31 
+### Last updated: 	 23/12/2024 11:05:40 
 
 ### Status
 
@@ -45,33 +45,33 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 23/12/2024 10:05:31 
+### Last updated: 	 23/12/2024 11:05:41 
 
 ### Status
 
-|                         | Segment   | Status    | Comment   | Allocation   |
-|:------------------------|:----------|:----------|:----------|:-------------|
-| EccContPrecDiff001_Lev3 | RD_AB     | Completed | Completed |              |
-| EccContPrecDiff001_Lev4 | RD_AC     | Completed | Completed |              |
-| EccContPrecDiff002_Lev3 | BB        | Running   | Running   | sonic6       |
-| EccContPrecDiff002_Lev4 | AX        | Running   | Running   | sonic7       |
-| EccContPrecDiff003_Lev2 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff003_Lev3 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff004_Lev2 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff004_Lev3 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff005_Lev2 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff005_Lev3 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff006_Lev2 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff006_Lev3 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff007_Lev2 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff007_Lev3 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff008_Lev2 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff008_Lev3 | RD_AA     | Completed | Completed |              |
+|                         | Segment   | Status          | Comment    | Allocation   |
+|:------------------------|:----------|:----------------|:-----------|:-------------|
+| EccContPrecDiff001_Lev3 | RD_AB     | Completed       | Completed  |              |
+| EccContPrecDiff001_Lev4 | RD_AC     | Completed       | Completed  |              |
+| EccContPrecDiff002_Lev3 | BC        | To be submitted | No Run dir |              |
+| EccContPrecDiff002_Lev4 | AY        | To be submitted | No Run dir |              |
+| EccContPrecDiff003_Lev2 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff003_Lev3 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff004_Lev2 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff004_Lev3 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff005_Lev2 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff005_Lev3 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff006_Lev2 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff006_Lev3 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff007_Lev2 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff007_Lev3 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff008_Lev2 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff008_Lev3 | RD_AA     | Completed       | Completed  |              |
 
 
 ## EccPrecDiff 
 
-### Last updated: 	 23/12/2024 10:05:32 
+### Last updated: 	 23/12/2024 11:05:42 
 
 ### Status
 
@@ -79,7 +79,7 @@
 |:---------------------|:----------|:----------------|:-----------|:-------------|
 | EccPrecDiff001_Lev2  | RD_AB     | Completed       | Completed  |              |
 | EccPrecDiff001_Lev3  | RD_AA     | To be submitted | No Run dir |              |
-| EccPrecDiff001_Lev4  | AK        | Running         | Running    | sonic9       |
+| EccPrecDiff001_Lev4  | AL        | To be submitted | No Run dir |              |
 | EccPrecDiff002_Lev2  | RD_AB     | Completed       | Completed  |              |
 | EccPrecDiff002_Lev3  | RD_AB     | Completed       | Completed  |              |
 | EccPrecDiff003_Lev3  | AG        | Unknown         | Unknown    |              |
