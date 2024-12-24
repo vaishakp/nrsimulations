@@ -2,7 +2,7 @@
 
 ## ICTSEccParallel 
 
-### Last updated: 	 25/12/2024 04:15:51 
+### Last updated: 	 25/12/2024 05:15:59 
 
 ### Status
 
@@ -24,7 +24,7 @@
 | ICTSEccParallel07_Lev3 | RD_AD     | Completed       | Completed  |              |
 | ICTSEccParallel08_Lev2 | RD_AB     | Completed       | Completed  |              |
 | ICTSEccParallel08_Lev3 | RD_AB     | Completed       | Completed  |              |
-| ICTSEccParallel09_Lev3 | AQ        | Running         | Running    | sonic2       |
+| ICTSEccParallel09_Lev3 | AQ        | Running         | Running    | sonic7       |
 | ICTSEccParallel10_Lev2 | RD_AH     | Completed       | Completed  |              |
 | ICTSEccParallel10_Lev3 | RD_AI     | Completed       | Completed  |              |
 | ICTSEccParallel11_Lev2 | AJ        | Unknown         | Unknown    |              |
@@ -45,33 +45,33 @@
 
 ## EccContPrecDiff 
 
-### Last updated: 	 25/12/2024 04:15:51 
+### Last updated: 	 25/12/2024 05:16:00 
 
 ### Status
 
-|                         | Segment   | Status    | Comment   | Allocation   |
-|:------------------------|:----------|:----------|:----------|:-------------|
-| EccContPrecDiff001_Lev3 | RD_AB     | Completed | Completed |              |
-| EccContPrecDiff001_Lev4 | RD_AC     | Completed | Completed |              |
-| EccContPrecDiff002_Lev3 | BC        | Running   | Running   | sonic14      |
-| EccContPrecDiff002_Lev4 | AY        | Running   | Running   | sonic7       |
-| EccContPrecDiff003_Lev2 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff003_Lev3 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff004_Lev2 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff004_Lev3 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff005_Lev2 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff005_Lev3 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff006_Lev2 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff006_Lev3 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff007_Lev2 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff007_Lev3 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff008_Lev2 | RD_AA     | Completed | Completed |              |
-| EccContPrecDiff008_Lev3 | RD_AA     | Completed | Completed |              |
+|                         | Segment   | Status          | Comment    | Allocation   |
+|:------------------------|:----------|:----------------|:-----------|:-------------|
+| EccContPrecDiff001_Lev3 | RD_AB     | Completed       | Completed  |              |
+| EccContPrecDiff001_Lev4 | RD_AC     | Completed       | Completed  |              |
+| EccContPrecDiff002_Lev3 | BD        | To be submitted | No Run dir |              |
+| EccContPrecDiff002_Lev4 | AZ        | To be submitted | No Run dir |              |
+| EccContPrecDiff003_Lev2 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff003_Lev3 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff004_Lev2 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff004_Lev3 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff005_Lev2 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff005_Lev3 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff006_Lev2 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff006_Lev3 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff007_Lev2 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff007_Lev3 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff008_Lev2 | RD_AA     | Completed       | Completed  |              |
+| EccContPrecDiff008_Lev3 | RD_AA     | Completed       | Completed  |              |
 
 
 ## EccPrecDiff 
 
-### Last updated: 	 25/12/2024 04:15:52 
+### Last updated: 	 25/12/2024 05:16:01 
 
 ### Status
 
