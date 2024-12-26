@@ -1,4 +1,5 @@
 #!/bin/bash
 
-git commit -am "Status update"
-git push
+#git add .
+git commit -a --amend --no-edit
+git push -f

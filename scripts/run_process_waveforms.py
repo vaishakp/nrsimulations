@@ -11,20 +11,21 @@ if config.print_verbosity!=2:
 
 
 sims1 = {
-     "ICTSEccParallel01" : [2, 3],
+     "ICTSEccParallel01" : [3],
 #    "ICTSEccParallel03": [2, 3],
 #    "ICTSEccParallel04": [2, 3],
 #    "ICTSEccParallel05": [2, 3],
-#    "ICTSEccParallel06": [2, 3],
-#    "ICTSEccParallel07": [2, 3],
-#    "ICTSEccParallel08": [2, 3],
-#    "ICTSEccParallel09": [2, 3],
-#    "ICTSEccParallel10": [2, 3],
-#    "ICTSEccParallel11": [2, 3],
-#    "ICTSEccParallel12": [2, 3],
-#    "ICTSEccParallel14": [2, 3],
-#    "ICTSEccParallel15": [2, 3],
-#    "ICTSEccParallel16": [2, 3],
+     "ICTSEccParallel06": [2],
+     "ICTSEccParallel07": [3],
+     "ICTSEccParallel08": [3],
+     "ICTSEccParallel09": [2, 3],
+     "ICTSEccParallel10": [2, 3],
+     "ICTSEccParallel11": [2, 3],
+     "ICTSEccParallel12": [2, 3],
+     "ICTSEccParallel13": [3],
+     "ICTSEccParallel14": [2],
+     "ICTSEccParallel15": [2],
+    "ICTSEccParallel16":  [3],
 #    "ICTSEccParallel17": [2, 3],
 }
 
