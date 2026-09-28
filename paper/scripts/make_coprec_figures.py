@@ -212,6 +212,9 @@ def fig_first_law():
         (P if cat.get(k, {}).get("precessing") else N).append(
             (v["ecc"], v["R_secular_med"]))
     fig, ax = plt.subplots(figsize=(ONECOL, 2.8))
+    # Fit each population separately and show the uncertainty on the exponent.
+    # A single line through both would interpolate between two offset
+    # populations and describe neither; see Sec. on the first law.
     for S, c, lab, mk in [(N, C[0], "aligned spin", "o"),
                           (P, C[1], "precessing", "s")]:
         if not S:
@@ -220,12 +223,16 @@ def fig_first_law():
         y = np.array([s[1] for s in S])
         ax.loglog(x, y, mk, color=c, ms=5, mec="white", mew=0.6, label=lab,
                   zorder=3)
-    allx = np.array([s[0] for s in P + N])
-    ally = np.array([s[1] for s in P + N])
-    c = np.polyfit(np.log(allx), np.log(ally), 1)
-    xx = np.logspace(np.log10(allx.min()), np.log10(allx.max()), 50)
-    ax.loglog(xx, np.exp(c[1]) * xx ** c[0], "-", color=INK2, lw=0.9,
-              label=rf"$|R|\propto e^{{{c[0]:.2f}}}$")
+        lx, ly = np.log(x), np.log(y)
+        A = np.vstack([lx, np.ones(len(lx))]).T
+        beta, _, _, _ = np.linalg.lstsq(A, ly, rcond=None)
+        resid = ly - A @ beta
+        se = np.sqrt(np.diag((resid @ resid / (len(lx) - 2))
+                             * np.linalg.inv(A.T @ A)))
+        xx = np.logspace(np.log10(x.min()), np.log10(x.max()), 50)
+        ax.loglog(xx, np.exp(beta[1]) * xx ** beta[0], "-", color=c, lw=0.9,
+                  zorder=2,
+                  label=rf"$\propto e^{{{beta[0]:.2f}\pm{se[0]:.2f}}}$")
     ax.set_xlabel(r"measured eccentricity $e$")
     ax.set_ylabel(r"orbit-averaged $|R|$")
     ax.legend(loc="upper left", fontsize=7)

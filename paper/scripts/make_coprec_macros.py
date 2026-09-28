@@ -29,6 +29,26 @@ def sci(x, n=1):
     return rf"{mant:.{n}f}\times10^{{{ex}}}"
 
 
+def loglog(x, y):
+    """Power-law fit y ~ x^a.  Returns (a, sigma_a, r, scatter_factor).
+
+    A bare `polyfit` slope is not a quotable result: over these sample sizes
+    the standard error is large enough that the second decimal is noise.  Every
+    exponent in this paper goes through here so that it can be quoted with its
+    uncertainty, and so that the residual scatter -- which is what tells you
+    whether a single power law describes the sample at all -- is available
+    alongside it.
+    """
+    lx, ly = np.log(np.asarray(x, float)), np.log(np.asarray(y, float))
+    n = len(lx)
+    A = np.vstack([lx, np.ones(n)]).T
+    beta, _, _, _ = np.linalg.lstsq(A, ly, rcond=None)
+    resid = ly - A @ beta
+    s2 = resid @ resid / (n - 2)
+    se = np.sqrt(np.diag(s2 * np.linalg.inv(A.T @ A)))
+    return beta[0], se[0], np.corrcoef(lx, ly)[0, 1], float(np.exp(np.sqrt(s2)))
+
+
 def main():
     surv = load("coprec_survey.json")
     ecc = load("eccentricity.json")
@@ -51,9 +71,17 @@ def main():
     M["MirrorPrecMin"] = fmt(100 * mu_p.min(), 1)
     M["MirrorPrecMax"] = fmt(100 * mu_p.max(), 1)
     M["MirrorPrecMed"] = fmt(100 * np.median(mu_p), 1)
-    M["MirrorBetaExp"] = fmt(np.polyfit(np.log(b), np.log(mu_p), 1)[0], 2)
+    # A log--log slope here is 0.93 +- 0.19, i.e. indistinguishable from
+    # linear, so we quote the violation as a range and a rate per degree
+    # rather than as a fitted exponent.
+    bexp, bexp_err, _, _ = loglog(b, mu_p)
+    M["MirrorBetaExp"] = fmt(bexp, 2)
+    M["MirrorBetaExpErr"] = fmt(bexp_err, 2)
+    M["MirrorPerDeg"] = fmt(np.mean(100 * mu_p / b), 2)
     M["BetaMin"] = fmt(b.min(), 1)
     M["BetaMax"] = fmt(b.max(), 1)
+    M["BetaMinRound"] = fmt(b.min(), 0)
+    M["BetaMaxRound"] = fmt(b.max(), 0)
     ci = np.array([r["conc_in"] for r in pr])
     cc = np.array([r["conc_cp"] for r in pr])
     M["ConcInMin"] = fmt(ci.min(), 2)
@@ -101,17 +129,88 @@ def main():
     allx = np.array([p[0] for p in P + N])
     ally = np.array([p[1] for p in P + N])
     M["NFirstLaw"] = len(ok)
-    M["FLExp"] = fmt(np.polyfit(np.log(allx), np.log(ally), 1)[0], 2)
-    M["FLCorr"] = fmt(np.corrcoef(np.log(allx), np.log(ally))[0, 1], 2)
+
+    # The residue is a violation of a quasi-circular identity, so it is quoted
+    # as a percentage and as a bound.  A pooled power-law exponent is NOT
+    # quoted: the aligned-spin and precessing runs are offset from one another
+    # by a factor of ~3 (FLRatio below) and occupy different parts of the e
+    # range, so a single line through both returns an intermediate slope
+    # belonging to neither population -- and one driven almost entirely by the
+    # three runs above e = 0.3, two of which (EccPrecDiff001/002) are the same
+    # physical configuration.  The exponents are reported per population.
     M["FLBest"] = sci(ally.min())
+    M["FLBestPct"] = f"{100 * ally.min():.3f}"
+    M["FLMedPct"] = fmt(100 * np.median(ally), 2)
+    M["FLWorstPct"] = fmt(100 * ally.max(), 1)
+    low = ally[allx < 0.2]
+    M["FLLowEccCut"] = "0.2"
+    M["FLNLowEcc"] = int((allx < 0.2).sum())
+    M["FLLowEccBoundPct"] = fmt(100 * low.max(), 2)
+    M["FLEccWorst"] = fmt(allx[ally.argmax()], 2)
+
+    xN = np.array([p[0] for p in N]); yN = np.array([p[1] for p in N])
+    xP = np.array([p[0] for p in P]); yP = np.array([p[1] for p in P])
+    M["NFLAlign"] = len(N)
+    M["NFLPrec"] = len(P)
+    for tag, xx, yy in (("Align", xN, yN), ("Prec", xP, yP)):
+        a, ae, r, sc = loglog(xx, yy)
+        M[f"FLExp{tag}"] = fmt(a, 2)
+        M[f"FLExp{tag}Err"] = fmt(ae, 2)
+        M[f"FLCorr{tag}"] = fmt(r, 2)
+        M[f"FLScatter{tag}"] = fmt(sc, 2)
+    # the aligned-spin runs follow a clean quadratic; quote the coefficient
+    k2 = yN / xN ** 2
+    M["FLCoeffAlign"] = fmt(k2.mean(), 3)
+    M["FLCoeffAlignErr"] = fmt(k2.std(ddof=1), 3)
+    M["FLCoeffAlignPct"] = fmt(100 * k2.mean(), 1)
+    M["FLCoeffAlignScatterPct"] = fmt(100 * k2.std(ddof=1) / k2.mean(), 0)
+
     lowP = [y for x, y in P if x < 0.2]
     lowN = [y for x, y in N if x < 0.2]
     M["FLPrecMed"] = sci(np.median(lowP))
     M["FLAlignMed"] = sci(np.median(lowN))
+    M["FLPrecMedPct"] = fmt(100 * np.median(lowP), 2)
+    M["FLAlignMedPct"] = fmt(100 * np.median(lowN), 2)
     M["FLRatio"] = fmt(np.median(lowP) / np.median(lowN), 1)
-    bad = [k for k, v in fl.items() if v["R_secular_med"] >= 1.0
-           or v["R_secular_max"] >= 1.0]
+
+    # The outlier is selected on the *peak* residue, not the orbit-averaged
+    # one: its median is unremarkable, so it stays in the sample above.
+    bad = sorted(k for k, v in fl.items() if v["R_secular_max"] >= 1.0)
     M["FLOutlier"] = bad[0].replace("_", r"\_") if bad else "none"
+    if bad:
+        M["FLOutlierPeak"] = sci(fl[bad[0]]["R_secular_max"])
+        M["FLOutlierMedPct"] = fmt(100 * fl[bad[0]]["R_secular_med"], 2)
+
+    # ------------------------------------------- first law: frame comparison
+    frames = load("first_law_frames.json")
+    if frames:
+        beta_of = {r["name"]: r["beta_med"] for r in surv}
+        fa = [(k, v) for k, v in frames.items() if not v["precessing"]]
+        fp = [(k, v) for k, v in frames.items() if v["precessing"]]
+        ra = np.array([v["ratio"] for _, v in fa])
+        rp = np.array([v["ratio"] for _, v in fp])
+        M["NFLFrameAlign"] = len(fa)
+        M["NFLFramePrec"] = len(fp)
+        # aligned-spin runs have no precession, so the two frames must agree:
+        # this is the null test for the whole construction.
+        M["FLFrameNull"] = sci(np.abs(ra - 1).max())
+        M["FLFrameRatioMin"] = fmt(rp.min(), 2)
+        M["FLFrameRatioMed"] = fmt(np.median(rp), 1)
+        M["FLFrameRatioMax"] = fmt(rp.max(), 0)
+        pe = [(k, v) for k, v in fp if v.get("ecc")]
+        if len(pe) > 3:
+            ee = np.array([v["ecc"] for _, v in pe])
+            # the same fit as FLExpPrec, but on the inertial-frame residue:
+            # the eccentricity dependence does not survive the frame change.
+            a, ae, r, _ = loglog(ee, np.array([v["R_in"] for _, v in pe]))
+            M["FLExpPrecInert"] = fmt(a, 2)
+            M["FLExpPrecInertErr"] = fmt(ae, 2)
+            M["FLCorrPrecInert"] = fmt(r, 2)
+        bp = np.array([beta_of[k] for k, _ in fp if k in beta_of])
+        rb = np.array([v["ratio"] for k, v in fp if k in beta_of])
+        if len(bp) > 3:
+            M["FLFrameBetaCorr"] = fmt(
+                np.corrcoef(np.log(bp), np.log(rb))[0, 1], 2)
 
     # --------------------------------------------------------- twisting study
     qc, ec = [], []
