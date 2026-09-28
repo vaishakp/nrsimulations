@@ -162,6 +162,10 @@ def fig_twist():
     rows = []
     for n, r in tw.items():
         e = r.get("ecc")
+        # NRHybSur3dq8 where it is calibrated, SEOBNRv5HM otherwise: at
+        # present only ICTSEccParallel06 (q = 9) needs the fallback.  The
+        # figure caption names both, since the substitution is invisible in
+        # the plotted series.
         qc = r["results"].get("nrhybsur_qc") or r["results"].get("seob_qc")
         ec = r["results"].get("seob_ecc")
         if e is None or qc is None or "mismatch" not in qc:

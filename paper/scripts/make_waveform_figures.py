@@ -264,18 +264,21 @@ def fig_convergence():
     orb = json.load(open(os.path.join(DATA, "orbit_counts.json")))["summary"]
     pick = sorted(results, key=lambda r: -np.max(np.abs(r["dphi"])))
     show = []
-    for want in ("EccPrecDiff002", "EccContPrecDiff001", "ICTSEccParallel02",
+    # Four curves spanning the range from worst- to best-converged, which is
+    # what the caption promises.  Labels carry only the orbit count: the level
+    # pair is the same (Lev2-Lev3) for all of them, and saying so once in the
+    # caption keeps the legend narrow enough not to crowd the panel.
+    for want in ("EccPrecDiff002", "ICTSEccParallel02",
                  "ICTSEccParallel07", "EccContPrecDiff005"):
         for r in results:
             if r["name"] == want:
                 show.append(r)
     if not show:
         show = pick[:4]
-    for i, r in enumerate(show[:5]):
+    for i, r in enumerate(show[:4]):
         tt = r["t"] - r["tpk"]
         o = orb.get(r["name"], {}).get("orbits")
-        lab = rf"{r['name']} (L{r['lo']}$\to${r['hi']}"
-        lab += rf", {o:.0f} orb)" if o else ")"
+        lab = rf"{r['name']}" + (rf", {o:.0f} orbits" if o else "")
         ax.semilogy(tt, np.abs(r["dphi"]), color=C[i], lw=1.0, label=lab)
     ax.axhline(1.0, color=INK2, lw=0.7, ls=":")
     ax.text(0.30, 0.645, "1 rad", transform=ax.transAxes, fontsize=7,
@@ -283,8 +286,8 @@ def fig_convergence():
     ax.set_xlabel(r"$(t-t_{\rm peak})/M$")
     ax.set_ylabel(r"$|\Delta\phi_{22}|$ [rad]")
     ax.set_ylim(1e-5, 800)
-    ax.legend(loc="upper left", handlelength=1.3, fontsize=6.4,
-              labelspacing=0.25)
+    ax.legend(loc="upper left", handlelength=1.0, fontsize=7,
+              labelspacing=0.3, borderaxespad=0.3, handletextpad=0.4)
     gridify(ax)
     ax.set_title("(a) resolution convergence", loc="left")
 
