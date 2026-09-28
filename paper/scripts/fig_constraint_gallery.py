@@ -178,7 +178,7 @@ def merger_view(runs):
 
     stats.sort(key=lambda r: -r[1])
     g = np.array([s[1] for s in stats])
-    print(f"\n  growth of ||C||_2 in the last 300M, vs late-inspiral level "
+    print(f"\n  growth of ||C||_2 in [-300, +500]M about merger, vs late inspiral "
           f"(n={len(stats)}):")
     print(f"    median x{np.median(g):.2f}   "
           f">2x: {(g > 2).sum()}/{len(g)}   >10x: {(g > 10).sum()}/{len(g)}")

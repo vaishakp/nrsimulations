@@ -88,6 +88,15 @@ def main():
     idx = index(d)
     cat = json.load(open(os.path.join(DATA, "catalog.json")))
 
+    # The harvest walks the whole run tree, which also holds the PSUTest /
+    # PSUTestHR commissioning runs.  Those are not catalogue entries and must
+    # not enter any statistic quoted in the paper.
+    dropped = sorted(s for s in idx if s not in cat)
+    for s in dropped:
+        del idx[s]
+    if dropped:
+        print(f"  [filter] not catalogue entries, dropped: {', '.join(dropped)}")
+
     # ------------------------------------------------ summary + convergence
     summary, ratios = {}, []
     for sim, levs in sorted(idx.items()):
