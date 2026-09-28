@@ -87,9 +87,35 @@ try:
               and max(v[k]["t_end"] for k in v if k.isdigit()) > 10000]
     r_con = float(np.median(ratios))
 
+    # The per-level improvement factor is bracketed by the two consecutive
+    # ratios of EccPrecDiff001 -- the ONLY catalogue simulation with three
+    # levels of data, and, since it shares its initial data bit-for-bit with
+    # EccPrecDiff002, the most relevant possible proxy for the record run.
+    # Each ratio is taken on the time window the two levels share, because the
+    # levels stop at different times and the constraints grow towards merger.
+    harv = json.load(open(os.path.join(DATA, "constraints_harvest.json")))
+
+    def med_on_shared(lo, hi):
+        a = np.asarray(harv[f"EccPrecDiff001|Ecc0|Lev{lo}"]["norm_series"],
+                       dtype=float)
+        b = np.asarray(harv[f"EccPrecDiff001|Ecc0|Lev{hi}"]["norm_series"],
+                       dtype=float)
+        t0 = max(a[0, 0], b[0, 0]) + 200.0
+        t1 = min(a[-1, 0], b[-1, 0])
+        ml = np.median(a[(a[:, 0] >= t0) & (a[:, 0] <= t1), 1])
+        mh = np.median(b[(b[:, 0] >= t0) & (b[:, 0] <= t1), 1])
+        return float(ml / mh)
+
+    f_meas = sorted(med_on_shared(lo, hi) for lo, hi in ((2, 3), (3, 4)))
+
     tol_ce = np.sqrt(D_intrinsic) / rho_ce
     levs = [3 + int(np.ceil(np.log(dphi_now / tol_ce) / np.log(f)))
-            for f in (4.0, r_con)]
+            for f in f_meas]
+    macros.update({
+        "PerLevelMeasLo": f"{f_meas[0]:.1f}",
+        "PerLevelMeasHi": f"{f_meas[-1]:.1f}",
+        "PerLevelThreeLevRun": "EccPrecDiff001",
+    })
     macros.update({
         "CESNRRef": f"{rho_ce:.0f}",
         "CEDphiTol": f"{tol_ce:.1e}".replace("e-0", r"\times10^{-") + "}",
@@ -110,7 +136,7 @@ try:
         if not rho:
             continue
         tol = np.sqrt(D_intrinsic) / rho
-        ns = sorted(np.log(dphi_now / tol) / np.log(f) for f in (4.0, r_con))
+        ns = sorted(np.log(dphi_now / tol) / np.log(f) for f in f_meas)
         if ns[-1] <= 0:                      # already satisfied at Lev3
             need = r"already met"
         else:

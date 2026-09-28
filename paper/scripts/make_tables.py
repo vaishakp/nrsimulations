@@ -126,6 +126,9 @@ macros = {
     "Qmin": f"{min(qs):.0f}",
     "Qmax": f"{max(qs):.1f}",
     "Eccmax": f"{max(eccs):.2f}",
+    # largest initial dimensionless spin magnitude over both holes; quoted in
+    # the abstract, so it must come from the data rather than be hand-typed
+    "Chimax": f"{max(max(np.linalg.norm(e[k]) for k in ('chiA', 'chiB') if e.get(k)) for e in cat.values() if e.get('chiA') or e.get('chiB')):.1f}",
     "SpeedMax": f"{max(speeds):.0f}",
 }
 with open(os.path.join(OUT, "macros.tex"), "w") as f:
