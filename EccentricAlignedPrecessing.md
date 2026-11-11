@@ -5,14 +5,14 @@ The numerical simulations are being run on the sonic cluster. They contain detai
 This page was first created on Feb 20, 2024.
 
 ## Some notes:
-1. Codes developed in `waveformtools` help in finding and automatically parsing parameters from NR simulation directories, and output a markdown table here. The code can be [accessed here](https://gitlab.com/vaishakp/waveformtools/-/tree/sxs_wtools/waveformtools/sxs?ref_type=heads). Note: to be possibly moved to gwnrtools.
-2. Codes developed in `waveformtools` can also find and process waveforms. They can
+1. The parameters in the tables below were found and parsed automatically from the simulation directories, and written out as markdown tables.
+2. The same code finds and processes the waveforms. It can
   - find simulations
   - fetch the simulation parameters from Params.input, TargetParams.input, and bfi params.
   - gather their status
   - compute Ncycles from the trajectory of AHs on the xy plane 
   - process waveforms :
-      1. extrapolate waveforms using scri / waveformtools
+      1. extrapolate waveforms using scri
       2. apply CoM corrections
   - compute Ncycles from the (2,2) mode
   - Output a markdown table for easy viewing
